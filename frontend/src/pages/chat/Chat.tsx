@@ -453,6 +453,7 @@ const Chat = () => {
                 appStateContext?.dispatch({ type: 'UPDATE_CHAT_HISTORY', payload: appStateContext?.state.currentChat });
                 setActiveCitation(undefined);
                 setIsCitationPanelOpen(false);
+                setExampleQuestionsVisible(true);
                 setMessages([])
             }
         }
