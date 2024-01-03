@@ -327,3 +327,7 @@ a {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.exampleQuestionContainer {
+    padding-bottom: 5em;
+}
